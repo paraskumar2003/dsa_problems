@@ -26,7 +26,7 @@ int main()
 {
 
     vector<int> nums = {1, 2, 3, 4, 5, -4, -2};
-    vector<int> twoSums = findTwoSum(nums, 4);
+    vector<int> twoSums = findTwoSum(nums, 100);
     for(auto i:twoSums){
         cout << i << endl;
     }
