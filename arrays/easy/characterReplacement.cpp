@@ -24,7 +24,7 @@ int characterReplacement(string &s, int k)
 
         while ((right - left + 1) - maxFrequency > k)
         {
-            map[s[left]]--;
+        map[s[left]]--;
             left++;
         }
 
@@ -37,8 +37,8 @@ int characterReplacement(string &s, int k)
 int main()
 {
 
-    string s = "AAB";
-    int k = 1;
+    string s = "ABAB";
+    int k = 0;
 
     cout << characterReplacement(s, k) << endl;
 }
